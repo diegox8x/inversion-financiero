@@ -2,6 +2,8 @@ const usuarios = [
   { usuario: "diego", clave: "1234" },
   { usuario: "maria", clave: "abcd" },
   { usuario: "esteban", clave: "4567" },
+  { usuario: "carlos", clave: "8945" }
+
 ];
 
 const SHEET_ID = "1vuzpFG3xoAWfR6HwRTR_4XTBvytCmcqQ_C_AqkoTxT4"; // <-- Pega aquí tu ID de la hoja
