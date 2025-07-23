@@ -1,12 +1,9 @@
-
 const usuarios = [
   { usuario: "diego", clave: "1234" },
-  { usuario: "maria", clave: "abcd" },
-  { usuario: "esteban", clave: "4567" },
-  
+  { usuario: "maria", clave: "abcd" }
 ];
 
-/const SHEET_ID = "18BYp0GmI4lNrin4tN7AmIcFIzModpnyDv8fsvGE"; // <-- Pega aquí tu ID de la hoja
+const SHEET_ID = "1vuzpFG3xoAWfR6HwRTR_4XTBvytCmcqQ_C_AqkoTxT4"; // <-- Pega aquí tu ID de la hoja
 const SHEET_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv`;
 
 function login() {
