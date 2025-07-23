@@ -6,8 +6,8 @@ const usuarios = [
   
 ];
 
-/const SHEET_ID = "e/2PACX-1vSCBO7VHFAIJWjw-Gl8eI9OMRVpeHPUwahFTXIt-IyzYhicRqg-e0C0ZMOROAIPBZDv4i2O3tIySvA0"; // <-- Pega aquí tu ID de la hoja
-const SHEET_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv`;
+/const SHEET_ID = "2PACX-1vSCBO7VHFAIJWjw-Gl8eI9OMRVpeHPUwahFTXIt-IyzYhicRqg-e0C0ZMOROAIPBZDv4i2O3tIySvA0"; // <-- Pega aquí tu ID de la hoja
+const SHEET_URL = `https://docs.google.com/spreadsheets/d/e/${SHEET_ID}/export?format=csv`;
 
 function login() {
   const user = document.getElementById('usuario').value;
